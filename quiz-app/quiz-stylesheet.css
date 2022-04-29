@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+}
+.header-bar {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+a {
+    color: white;
+    margin-right: auto;
+    list-style: none;
+    margin-left: 1.5rem;
+}
+ul li {
+    display: inline;
+    list-style: none;
+    margin: 1.5rem;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.main-section {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: 1;
+    
+}
+.greetings {
+    color: white;
+    text-align: left;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+    display: block;
+}
+.first-header {
+    font-size: 4rem;
+}
+.first-subheader {
+    color: white;
+    text-align: justify;
+    margin-bottom: 5rem;
+}
+.main-image {
+    display: block;
+    justify-content: end;
+    align-items: center;
+    margin-left: 15rem;
+    margin-right: 5rem;
+
+}
+.second-header {
+    text-align: center;
+    font-size: 2rem;
+}
+.second-images {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 4rem;
+}
+.second-image1 {
+    display: flex;
+    flex-direction: column;
+}
+.second-image2 {
+    display: flex;
+    flex-direction: column;
+}
+.second-image3 {
+    display: flex;
+    flex-direction: column;
+}
+.second-image4 {
+    display: flex;
+    flex-direction: column;
+}
+.third-section {
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: left;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 4rem;
+}
+.fourth-section {
+    display: flex;
+    padding: 4rem;
+    align-items: center;
+}
+.signup-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 11rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.signup-text {
+    display: flex;
+    flex-direction: column;  
+    padding-right: 5rem;
+}
+.signup-text h3 {
+    padding-top: 2rem;
+    margin-bottom: -2.5px;
+    margin-top: -1px;
+}
+.signup-button {
+    display: flex;
+    align-items: right;
+}
+.button {
+    background-color: blue;
+    color: white;
+    padding: 6px 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+}
+.fifth-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+.copyright {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+
+}
